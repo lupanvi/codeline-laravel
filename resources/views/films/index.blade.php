@@ -7,13 +7,13 @@
 		 <div class="row">
 	        <div class="col-md-8 col-md-offset-2">                        
 	  
-				<a class="btn btn-default" href="films/create" role="button">Create new film</a>
+				<a class="btn btn-primary" href="films/create" role="button">Create new film</a>
 	            
 	        </div>    
 	    </div>
 
 	    <hr>
-    @endif
+     @endif
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
