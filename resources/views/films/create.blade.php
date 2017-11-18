@@ -54,7 +54,7 @@
                         <div class="form-group">
                             <label class="col-sm-2">Ticket price</label>
                              <div class="col-sm-10">
-                                <input type="text" class="form-control" id="ticket_price" name="ticket_price" value="{{ old('ticket_price') }}" required>
+                                <input type="number" class="form-control" id="ticket_price" name="ticket_price" value="{{ old('ticket_price') }}" required>
                             </div>
                         </div> 
 
