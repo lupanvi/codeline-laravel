@@ -3,6 +3,18 @@
 @section('content')
 <div class="container">
 
+     @if(auth()->check())
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2">                        
+      
+                <a class="btn btn-primary" href="films/create" role="button">Create new film</a>
+                
+            </div>    
+        </div>
+
+        <hr>
+     @endif
+
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-left">
 
