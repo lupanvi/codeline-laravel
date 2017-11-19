@@ -34,7 +34,7 @@
                         <div class="form-group">
                             <label class="col-sm-2" for="">Release date</label>
                             <div class="col-sm-10">
-                                <input placeholder="example: 2017-11-17" type="date" class="form-control" id="release_date" name="release_date" value="{{ old('release_date') }}"     required>
+                                <input type="text" class="datepicker form-control" id="release_date" name="release_date" value="{{ old('release_date') }}"     required>
                             </div>
                         </div> 
 
@@ -110,4 +110,16 @@
             </div>
         </div>
 </div>
+@endsection
+
+@section('scripts')    
+
+  <script>
+    $( function() {
+        $( ".datepicker" ).datepicker({
+            dateFormat: "yy-mm-dd"
+        });  
+    });     
+  </script>
+
 @endsection
